@@ -1,0 +1,223 @@
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container1{
+  background-color: #0093E9;
+background-image: linear-gradient(120deg,#5FC3E4 45%, #E55D87 55%);
+  background-size: 180% 180%;
+  animation: gradient-animation 20s ease infinite;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Grid */
+.container1 {
+  padding-left: 20px;
+  padding-top: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+ 
+}
+.img1 {
+  border-radius: 50%;
+}
+.p1 {
+  font-size: 3rem;
+  color: rgb(38, 39, 38);
+  text-shadow: 1px 0 rgb(168, 226, 249);
+  
+}
+.p2 {
+  font-size: 2rem;
+  color:  rgb(63, 65, 65);
+  text-shadow: 1px 0 rgb(162, 222, 245);
+  
+}
+.sp1 {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(162, 222, 245);
+}
+
+/* Grid 2 */
+.container2 {
+  display: grid;
+  position: absolute;
+  top: 500px;
+  width: 97%;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 0.6fr 0.5fr 1fr repeat(2,0.2fr);
+  text-justify: newspaper;
+  text-align: justify;
+  padding-left: 10px ;
+  padding-right: 20px;
+  color: rgb(24, 24, 24);
+}
+.d4 {
+  padding-right: 10px;
+  grid-area: 2 / 1 / 3 / 3;
+  font-size: 1rem;
+
+
+}
+.d5 {
+  padding-right: 20px;
+  font-size: 1rem;
+}
+.ul1 {
+  padding: 0;
+}
+li span {
+  position: relative;
+  left: 0;
+}
+.d6 {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p3 {
+  justify-content: center;
+}
+.img2 {
+  background-color: rgb(245, 249, 252);
+  border-radius: 50%;
+  border: 0.1px solid rgb(235, 231, 231);
+ 
+}
+@media (max-width: 460px) and (min-width: 260px) {
+  .img1 {
+    width: 120px;
+    height: 120px;
+  }
+  .img2 {
+    width: 120px;
+    height: 100px;
+    
+  }
+  .p1 {
+    font-size: 2rem;
+    padding-right: 5px;
+  }
+  .p2 {
+    font-size: 1.2rem;
+  }
+  .container1 {
+    padding: 20px;
+  }
+  .container2 {
+    position: absolute;
+    top: 310px;
+    padding: 10px;
+  }
+  .d4,.d5,.d6 {
+    font-size: 0.7rem;
+  }
+
+  .img3,.img4 {
+    width: 160px;
+      height: 170px;
+  }
+  h3 {
+    font-size: 0.7rem;
+  }
+  .link {
+    font-size: 0.5rem;
+  }
+  .ph1 {
+    font-size: 0.4rem;
+  }
+
+  .contact {
+    font-size: 0.5rem;
+  }
+  body > div > div.container2 > div.mainbtn > a {
+   
+    font-size: 0.5rem;
+  }
+  
+}
+@media (max-width: 380px) {
+  .container2 {
+    top: 340px;
+  }
+
+/* part3 */
+}
+h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+.img3,.img4 {
+  border-radius: 5%;
+}
+.d7,.d8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* Finsh day2  */
+
+.ft {
+  grid-column: span 2;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+}
+.link {
+  padding: 20px;
+  margin-left: -20px;
+}
+
+  
+
+.btn {
+    
+    font-size: 1rem;
+    padding-right: 10px;
+    float: right;
+    margin-top: 15px;
+}
+.ph1 {
+  float: left;
+  margin-top: 15px;
+}
+a {
+  color: rgb(20, 18, 18);
+  text-decoration: none;
+
+  
+}
+a:hover {
+  color: rgb(166, 166, 227);
+}
+
+
+
+
+
+
+
+
+
